@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Booking flow">
-    <mxGraphModel dx="1247" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1793" dy="923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -188,7 +188,7 @@
           <mxGeometry x="310" y="100" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tSpMMrxzUmrOxkiWCc4J-3" value="" style="group;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1" connectable="0">
-          <mxGeometry x="20" y="840" width="1260" height="880" as="geometry" />
+          <mxGeometry x="20" y="840" width="1260" height="910" as="geometry" />
         </mxCell>
         <mxCell id="tSpMMrxzUmrOxkiWCc4J-4" style="edgeStyle=none;curved=1;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="tSpMMrxzUmrOxkiWCc4J-3" source="tSpMMrxzUmrOxkiWCc4J-6" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -215,7 +215,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tSpMMrxzUmrOxkiWCc4J-10" value="&lt;span style=&quot;color: rgb(108, 118, 125); font-size: 14px; text-align: left;&quot;&gt;Descriere proces de cumparare blilet &lt;/span&gt;&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;&lt;font color=&quot;#00cc66&quot;&gt;ONLINE&lt;/font&gt;&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;rounded=1;width=180;height=55;" parent="tSpMMrxzUmrOxkiWCc4J-3" vertex="1">
-          <mxGeometry width="1260" height="880" as="geometry" />
+          <mxGeometry width="1260" height="910" as="geometry" />
         </mxCell>
         <mxCell id="tSpMMrxzUmrOxkiWCc4J-11" value="" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="tSpMMrxzUmrOxkiWCc4J-3" source="tSpMMrxzUmrOxkiWCc4J-13" target="tSpMMrxzUmrOxkiWCc4J-23" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -240,6 +240,12 @@
         <mxCell id="XpkiJZqz_F2u8kBpc9Rh-49" value="Cerere" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XpkiJZqz_F2u8kBpc9Rh-48">
           <mxGeometry x="-0.16" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XpkiJZqz_F2u8kBpc9Rh-196" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.005;entryY=0.589;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="tSpMMrxzUmrOxkiWCc4J-3" target="XpkiJZqz_F2u8kBpc9Rh-273">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="731" as="targetPoint" />
+            <mxPoint x="260" y="730.9999999999998" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tSpMMrxzUmrOxkiWCc4J-13" value="API Express" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};rounded=1;flipV=0;direction=west;horizontal=0;" parent="tSpMMrxzUmrOxkiWCc4J-3" vertex="1">
@@ -304,9 +310,9 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XpkiJZqz_F2u8kBpc9Rh-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tSpMMrxzUmrOxkiWCc4J-3" source="tSpMMrxzUmrOxkiWCc4J-29">
+        <mxCell id="XpkiJZqz_F2u8kBpc9Rh-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="tSpMMrxzUmrOxkiWCc4J-3" source="tSpMMrxzUmrOxkiWCc4J-29" target="XpkiJZqz_F2u8kBpc9Rh-45">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="115" y="450" as="targetPoint" />
+            <mxPoint x="115" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tSpMMrxzUmrOxkiWCc4J-29" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Success&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#B8DCFE;strokeWidth=1;fillColor=#CCE7FE;fontColor=#004583;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;rounded=1;" parent="tSpMMrxzUmrOxkiWCc4J-3" vertex="1">
@@ -458,7 +464,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XpkiJZqz_F2u8kBpc9Rh-178" value="Succes?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="tSpMMrxzUmrOxkiWCc4J-3">
-          <mxGeometry x="630" y="564.5" width="80" height="80" as="geometry" />
+          <mxGeometry x="710" y="564.5" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XpkiJZqz_F2u8kBpc9Rh-179" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.955;entryY=0.504;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="tSpMMrxzUmrOxkiWCc4J-3" target="XpkiJZqz_F2u8kBpc9Rh-178">
           <mxGeometry relative="1" as="geometry">
@@ -471,21 +477,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XpkiJZqz_F2u8kBpc9Rh-186" value="&lt;div&gt;Conditie stricta:&lt;/div&gt;OrderModel&lt;div&gt;status = initiated si&lt;/div&gt;&lt;div&gt;type = payedBooking&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="tSpMMrxzUmrOxkiWCc4J-3">
-          <mxGeometry x="740" y="720" width="130" height="122.5" as="geometry" />
+        <mxCell id="XpkiJZqz_F2u8kBpc9Rh-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="tSpMMrxzUmrOxkiWCc4J-3" source="XpkiJZqz_F2u8kBpc9Rh-183" target="XpkiJZqz_F2u8kBpc9Rh-189">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XpkiJZqz_F2u8kBpc9Rh-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="tSpMMrxzUmrOxkiWCc4J-3" source="XpkiJZqz_F2u8kBpc9Rh-183">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="751.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XpkiJZqz_F2u8kBpc9Rh-188" value="Raspuns" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XpkiJZqz_F2u8kBpc9Rh-187">
-          <mxGeometry x="-0.1447" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XpkiJZqz_F2u8kBpc9Rh-183" value="Proces automat&lt;div&gt;la 5min - Atentionare&lt;/div&gt;&lt;div&gt;la 15min - Anulare&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="tSpMMrxzUmrOxkiWCc4J-3">
-          <mxGeometry x="610" y="721.5" width="120" height="60" as="geometry" />
+        <mxCell id="XpkiJZqz_F2u8kBpc9Rh-183" value="Schimbare status comanda" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="tSpMMrxzUmrOxkiWCc4J-3">
+          <mxGeometry x="690" y="700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XpkiJZqz_F2u8kBpc9Rh-184" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="tSpMMrxzUmrOxkiWCc4J-3" source="XpkiJZqz_F2u8kBpc9Rh-178" target="XpkiJZqz_F2u8kBpc9Rh-183">
           <mxGeometry relative="1" as="geometry" />
@@ -495,8 +491,42 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="XpkiJZqz_F2u8kBpc9Rh-193" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="tSpMMrxzUmrOxkiWCc4J-3" source="XpkiJZqz_F2u8kBpc9Rh-189" target="tSpMMrxzUmrOxkiWCc4J-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XpkiJZqz_F2u8kBpc9Rh-194" value="Raspuns" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XpkiJZqz_F2u8kBpc9Rh-193">
+          <mxGeometry x="-0.0145" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XpkiJZqz_F2u8kBpc9Rh-189" value="Proces automat&lt;div&gt;la 5min - Atentionare&lt;/div&gt;&lt;div&gt;la 15min - Anulare&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="tSpMMrxzUmrOxkiWCc4J-3">
+          <mxGeometry x="480" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XpkiJZqz_F2u8kBpc9Rh-186" value="&lt;div&gt;Conditie stricta:&lt;/div&gt;OrderModel&lt;div&gt;status = initiated si&lt;/div&gt;&lt;div&gt;type = payedBooking&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="tSpMMrxzUmrOxkiWCc4J-3">
+          <mxGeometry x="480" y="770" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XpkiJZqz_F2u8kBpc9Rh-271" value="Eroare" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#F4C5CB;strokeWidth=1;fillColor=#F8D6DA;fontColor=#711623;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;rounded=1;" vertex="1" parent="tSpMMrxzUmrOxkiWCc4J-3">
+          <mxGeometry x="20" y="580" width="170" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="XpkiJZqz_F2u8kBpc9Rh-272" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.997;entryY=0.498;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="tSpMMrxzUmrOxkiWCc4J-3" source="tSpMMrxzUmrOxkiWCc4J-13" target="XpkiJZqz_F2u8kBpc9Rh-271">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190.67999999999995" y="614.4870000000001" as="targetPoint" />
+            <mxPoint x="260" y="609.3499999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XpkiJZqz_F2u8kBpc9Rh-273" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Succes: Trimitere catre pagina NETOPIA&lt;/font&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#B8DCFE;strokeWidth=1;fillColor=#CCE7FE;fontColor=#004583;whiteSpace=wrap;align=left;verticalAlign=middle;spacingLeft=10;rounded=1;" vertex="1" parent="tSpMMrxzUmrOxkiWCc4J-3">
+          <mxGeometry x="20" y="707.6200000000001" width="170" height="44.75" as="geometry" />
+        </mxCell>
         <mxCell id="4ncP-Ni7GxkVVqy7-JuS-9" value="&lt;span style=&quot;color: rgb(108, 118, 125); font-size: 14px; text-align: left;&quot;&gt;Descriere proces de rezervare blilet &lt;/span&gt;&lt;span style=&quot;font-size: 14px; text-align: left;&quot;&gt;&lt;font color=&quot;#00cc66&quot;&gt;ONLINE&lt;/font&gt;&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;rounded=1;width=180;height=55;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="10" y="390" width="1260" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="XpkiJZqz_F2u8kBpc9Rh-190" value="OrderModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="840" y="1540" width="150" height="70" as="geometry">
+            <mxRectangle x="550" y="420" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XpkiJZqz_F2u8kBpc9Rh-191" value="+ status: initiated&lt;div&gt;+ type: p&lt;span style=&quot;background-color: initial;&quot;&gt;ayedBooking&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="XpkiJZqz_F2u8kBpc9Rh-190">
+          <mxGeometry y="26" width="150" height="44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
