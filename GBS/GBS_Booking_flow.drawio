@@ -866,7 +866,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="C6HKdqDlzkEcT7GTTIT4" name="Booking flow">
-    <mxGraphModel dx="1593" dy="1647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="755" dy="1215" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -927,7 +927,7 @@
           <mxGeometry y="160" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="r28Zq3r1ciWLY6Joegvd-12" value="Vizualizare&lt;br&gt;operator" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="QBE60ZUakxJW5ELRVbWh-51">
-          <mxGeometry x="440" y="270" width="120" height="80" as="geometry" />
+          <mxGeometry x="480" y="245" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="QBE60ZUakxJW5ELRVbWh-64" value="Caz 2.&lt;div&gt;Rezmax (A) -&amp;gt; Mirtrans (A) -&amp;gt; Romtrans (T)&lt;/div&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=270;height=40;" parent="1" vertex="1">
           <mxGeometry x="10" y="420" width="820" height="400" as="geometry" />
@@ -997,22 +997,22 @@
           <mxGeometry y="160" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="r28Zq3r1ciWLY6Joegvd-7" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="QBE60ZUakxJW5ELRVbWh-76">
-          <mxGeometry x="10" y="290" width="410" height="90" as="geometry" />
+          <mxGeometry x="10" y="290" width="420" height="90" as="geometry" />
         </mxCell>
         <mxCell id="r28Zq3r1ciWLY6Joegvd-8" value="Istoric transfer bilet" style="text;strokeColor=none;fillColor=#0085FC;align=left;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;shape=mxgraph.bootstrap.topButton;rSize=5;fontColor=#ffffff;" vertex="1" parent="r28Zq3r1ciWLY6Joegvd-7">
-          <mxGeometry width="410" height="30" as="geometry" />
+          <mxGeometry width="420" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r28Zq3r1ciWLY6Joegvd-9" value="Romtrans&amp;nbsp; &amp;nbsp;|&amp;nbsp; &amp;nbsp;Transport&amp;nbsp; |&amp;nbsp; 148,50 RON&amp;nbsp; |&amp;nbsp; &amp;nbsp; 0%&amp;nbsp; |&amp;nbsp; 09 Sept 2024 10:00&amp;nbsp;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rSize=5;" vertex="1" parent="r28Zq3r1ciWLY6Joegvd-7">
-          <mxGeometry y="30" width="410" height="30" as="geometry" />
+        <mxCell id="r28Zq3r1ciWLY6Joegvd-9" value="2. Romtrans&amp;nbsp; &amp;nbsp;|&amp;nbsp; &amp;nbsp;Transport&amp;nbsp; |&amp;nbsp; 148,50 RON&amp;nbsp; |&amp;nbsp; &amp;nbsp; 0%&amp;nbsp; |&amp;nbsp; 09 Sept 2024 10:00&amp;nbsp;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rSize=5;" vertex="1" parent="r28Zq3r1ciWLY6Joegvd-7">
+          <mxGeometry y="30" width="420" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r28Zq3r1ciWLY6Joegvd-11" value="Mirtrans&amp;nbsp; &amp;nbsp; &amp;nbsp; |&amp;nbsp; &amp;nbsp; Vanzare&amp;nbsp; &amp;nbsp;|&amp;nbsp; 150 RON&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;|&amp;nbsp; &amp;nbsp; 1%&amp;nbsp; |&amp;nbsp; 04 Sept 2024 15:30&amp;nbsp;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;shape=mxgraph.bootstrap.bottomButton;rSize=5;fontColor=#333333;" vertex="1" parent="r28Zq3r1ciWLY6Joegvd-7">
-          <mxGeometry y="60" width="410" height="30" as="geometry" />
+        <mxCell id="r28Zq3r1ciWLY6Joegvd-11" value="1. Mirtrans&amp;nbsp; &amp;nbsp; &amp;nbsp; |&amp;nbsp; &amp;nbsp; Vanzare&amp;nbsp; &amp;nbsp;|&amp;nbsp; 150 RON&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;|&amp;nbsp; &amp;nbsp; 1%&amp;nbsp; |&amp;nbsp; 04 Sept 2024 15:30&amp;nbsp;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;shape=mxgraph.bootstrap.bottomButton;rSize=5;fontColor=#333333;" vertex="1" parent="r28Zq3r1ciWLY6Joegvd-7">
+          <mxGeometry y="60" width="420" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r28Zq3r1ciWLY6Joegvd-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="QBE60ZUakxJW5ELRVbWh-76" source="r28Zq3r1ciWLY6Joegvd-16" target="r28Zq3r1ciWLY6Joegvd-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r28Zq3r1ciWLY6Joegvd-16" value="Vizualizare&lt;br&gt;operator" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="QBE60ZUakxJW5ELRVbWh-76">
-          <mxGeometry x="460" y="290" width="120" height="80" as="geometry" />
+          <mxGeometry x="470" y="265" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="QBE60ZUakxJW5ELRVbWh-88" value="Rezmax ID = 21" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="685" y="850" width="110" height="30" as="geometry" />
@@ -1024,34 +1024,34 @@
           <mxGeometry x="685" y="892" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QBE60ZUakxJW5ELRVbWh-91" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="20" y="280" width="390" height="120" as="geometry" />
+          <mxGeometry x="20" y="280" width="400" height="120" as="geometry" />
         </mxCell>
         <mxCell id="QBE60ZUakxJW5ELRVbWh-92" value="Istoric transfer bilet" style="text;strokeColor=none;fillColor=#0085FC;align=left;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;shape=mxgraph.bootstrap.topButton;rSize=5;fontColor=#ffffff;" parent="QBE60ZUakxJW5ELRVbWh-91" vertex="1">
-          <mxGeometry width="390" height="30" as="geometry" />
+          <mxGeometry width="400" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QBE60ZUakxJW5ELRVbWh-94" value="Mirtrans&amp;nbsp; &amp;nbsp;|&amp;nbsp; &amp;nbsp;Transport&amp;nbsp; |&amp;nbsp; 135 RON&amp;nbsp; |&amp;nbsp; &amp;nbsp; 0%&amp;nbsp; |&amp;nbsp; 09 Sept 2024 10:00&amp;nbsp;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rSize=5;" parent="QBE60ZUakxJW5ELRVbWh-91" vertex="1">
-          <mxGeometry y="30" width="390" height="30" as="geometry" />
+        <mxCell id="QBE60ZUakxJW5ELRVbWh-94" value="3. Mirtrans&amp;nbsp; &amp;nbsp;|&amp;nbsp; &amp;nbsp;Transport&amp;nbsp; |&amp;nbsp; 135 RON&amp;nbsp; |&amp;nbsp; &amp;nbsp; 0%&amp;nbsp; |&amp;nbsp; 09 Sept 2024 10:00&amp;nbsp;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rSize=5;" parent="QBE60ZUakxJW5ELRVbWh-91" vertex="1">
+          <mxGeometry y="30" width="400" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QBE60ZUakxJW5ELRVbWh-95" value="Mirtrans&amp;nbsp; &amp;nbsp;|&amp;nbsp; &amp;nbsp; Vanzare&amp;nbsp; &amp;nbsp;|&amp;nbsp; 135 RON&amp;nbsp; |&amp;nbsp; &amp;nbsp; 0%&amp;nbsp; |&amp;nbsp; 04 Sept 2024 15:35&amp;nbsp;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rSize=5;fontColor=#333333;" parent="QBE60ZUakxJW5ELRVbWh-91" vertex="1">
-          <mxGeometry y="60" width="390" height="30" as="geometry" />
+        <mxCell id="QBE60ZUakxJW5ELRVbWh-95" value="2. Mirtrans&amp;nbsp; &amp;nbsp;|&amp;nbsp; &amp;nbsp; Vanzare&amp;nbsp; &amp;nbsp;|&amp;nbsp; 135 RON&amp;nbsp; |&amp;nbsp; &amp;nbsp; 0%&amp;nbsp; |&amp;nbsp; 04 Sept 2024 15:35&amp;nbsp;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rSize=5;fontColor=#333333;" parent="QBE60ZUakxJW5ELRVbWh-91" vertex="1">
+          <mxGeometry y="60" width="400" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QBE60ZUakxJW5ELRVbWh-96" value="Rezmax&amp;nbsp; &amp;nbsp;|&amp;nbsp; &amp;nbsp; Vanzare&amp;nbsp; &amp;nbsp;|&amp;nbsp; 150 RON&amp;nbsp; |&amp;nbsp; 10%&amp;nbsp; |&amp;nbsp; 04 Sept 2024 15:30&amp;nbsp;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;shape=mxgraph.bootstrap.bottomButton;rSize=5;fontColor=#333333;" parent="QBE60ZUakxJW5ELRVbWh-91" vertex="1">
-          <mxGeometry y="90" width="390" height="30" as="geometry" />
+        <mxCell id="QBE60ZUakxJW5ELRVbWh-96" value="1. Rezmax&amp;nbsp; &amp;nbsp;|&amp;nbsp; &amp;nbsp; Vanzare&amp;nbsp; &amp;nbsp;|&amp;nbsp; 150 RON&amp;nbsp; |&amp;nbsp; 10%&amp;nbsp; |&amp;nbsp; 04 Sept 2024 15:30&amp;nbsp;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;shape=mxgraph.bootstrap.bottomButton;rSize=5;fontColor=#333333;" parent="QBE60ZUakxJW5ELRVbWh-91" vertex="1">
+          <mxGeometry y="90" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r28Zq3r1ciWLY6Joegvd-2" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="20" y="690" width="410" height="120" as="geometry" />
+          <mxGeometry x="20" y="690" width="430" height="120" as="geometry" />
         </mxCell>
         <mxCell id="r28Zq3r1ciWLY6Joegvd-3" value="Istoric transfer bilet" style="text;strokeColor=none;fillColor=#0085FC;align=left;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;shape=mxgraph.bootstrap.topButton;rSize=5;fontColor=#ffffff;" vertex="1" parent="r28Zq3r1ciWLY6Joegvd-2">
-          <mxGeometry width="410" height="30" as="geometry" />
+          <mxGeometry width="430" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r28Zq3r1ciWLY6Joegvd-4" value="Romtrans&amp;nbsp; &amp;nbsp;|&amp;nbsp; &amp;nbsp;Transport&amp;nbsp; |&amp;nbsp; 133,65 RON&amp;nbsp; |&amp;nbsp; &amp;nbsp; 0%&amp;nbsp; |&amp;nbsp; 09 Sept 2024 10:00&amp;nbsp;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rSize=5;" vertex="1" parent="r28Zq3r1ciWLY6Joegvd-2">
-          <mxGeometry y="30" width="410" height="30" as="geometry" />
+        <mxCell id="r28Zq3r1ciWLY6Joegvd-4" value="3. Romtrans&amp;nbsp; &amp;nbsp;|&amp;nbsp; &amp;nbsp;Transport&amp;nbsp; |&amp;nbsp; 133,65 RON&amp;nbsp; |&amp;nbsp; &amp;nbsp; 0%&amp;nbsp; |&amp;nbsp; 09 Sept 2024 10:00&amp;nbsp;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rSize=5;" vertex="1" parent="r28Zq3r1ciWLY6Joegvd-2">
+          <mxGeometry y="30" width="430" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r28Zq3r1ciWLY6Joegvd-5" value="Mirtrans&amp;nbsp; &amp;nbsp; &amp;nbsp; |&amp;nbsp; &amp;nbsp; Vanzare&amp;nbsp; &amp;nbsp;|&amp;nbsp; 135 RON&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;|&amp;nbsp; &amp;nbsp; 1%&amp;nbsp; |&amp;nbsp; 04 Sept 2024 15:35&amp;nbsp;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rSize=5;fontColor=#333333;" vertex="1" parent="r28Zq3r1ciWLY6Joegvd-2">
-          <mxGeometry y="60" width="410" height="30" as="geometry" />
+        <mxCell id="r28Zq3r1ciWLY6Joegvd-5" value="2. Mirtrans&amp;nbsp; &amp;nbsp; &amp;nbsp; |&amp;nbsp; &amp;nbsp; Vanzare&amp;nbsp; &amp;nbsp;|&amp;nbsp; 135 RON&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;|&amp;nbsp; &amp;nbsp; 1%&amp;nbsp; |&amp;nbsp; 04 Sept 2024 15:35&amp;nbsp;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rSize=5;fontColor=#333333;" vertex="1" parent="r28Zq3r1ciWLY6Joegvd-2">
+          <mxGeometry y="60" width="430" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r28Zq3r1ciWLY6Joegvd-6" value="Rezmax&amp;nbsp; &amp;nbsp; &amp;nbsp; |&amp;nbsp; &amp;nbsp; Vanzare&amp;nbsp; &amp;nbsp;|&amp;nbsp; 150 RON&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;|&amp;nbsp; 10%&amp;nbsp; |&amp;nbsp; 04 Sept 2024 15:30&amp;nbsp;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;shape=mxgraph.bootstrap.bottomButton;rSize=5;fontColor=#333333;" vertex="1" parent="r28Zq3r1ciWLY6Joegvd-2">
-          <mxGeometry y="90" width="410" height="30" as="geometry" />
+        <mxCell id="r28Zq3r1ciWLY6Joegvd-6" value="1. Rezmax&amp;nbsp; &amp;nbsp; &amp;nbsp; |&amp;nbsp; &amp;nbsp; Vanzare&amp;nbsp; &amp;nbsp;|&amp;nbsp; 150 RON&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;|&amp;nbsp; 10%&amp;nbsp; |&amp;nbsp; 04 Sept 2024 15:30&amp;nbsp;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;shape=mxgraph.bootstrap.bottomButton;rSize=5;fontColor=#333333;" vertex="1" parent="r28Zq3r1ciWLY6Joegvd-2">
+          <mxGeometry y="90" width="430" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r28Zq3r1ciWLY6Joegvd-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r28Zq3r1ciWLY6Joegvd-12" target="QBE60ZUakxJW5ELRVbWh-92">
           <mxGeometry relative="1" as="geometry" />
