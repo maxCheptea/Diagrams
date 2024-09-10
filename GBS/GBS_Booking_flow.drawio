@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.12" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Booking flow">
-    <mxGraphModel dx="956" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="4097" dy="2109" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -866,7 +866,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="C6HKdqDlzkEcT7GTTIT4" name="Booking flow">
-    <mxGraphModel dx="4097" dy="2936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3187" dy="2467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -897,7 +897,7 @@
         <mxCell id="QBE60ZUakxJW5ELRVbWh-25" value="BookingTransaction&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="QBE60ZUakxJW5ELRVbWh-51" vertex="1">
           <mxGeometry x="10" y="60" width="210" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="QBE60ZUakxJW5ELRVbWh-26" value="+ bookingId: UUID&lt;div&gt;+ ID proprietar: 21&lt;/div&gt;&lt;div&gt;+ stareActuala: nu&lt;/div&gt;&lt;div&gt;+ amount: 150,&lt;/div&gt;&lt;div&gt;+ valuta: RON&lt;/div&gt;&lt;div&gt;+ comission: 10&lt;/div&gt;&lt;div&gt;+ type: &#39;sell&#39;&lt;br&gt;&lt;div&gt;+ createdAt: 2024.09.04 15:30&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QBE60ZUakxJW5ELRVbWh-25" vertex="1">
+        <mxCell id="QBE60ZUakxJW5ELRVbWh-26" value="+ bookingId: UUID&lt;div&gt;+ ID proprietar: 21&lt;/div&gt;&lt;div&gt;+ stareActuala: nu&lt;/div&gt;&lt;div&gt;+ amount: 150,&lt;/div&gt;&lt;div&gt;+ valuta: RON&lt;/div&gt;&lt;div&gt;+ comission: 10&lt;/div&gt;&lt;div&gt;+ type: &#39;sell&#39;&lt;br&gt;&lt;div&gt;+ createdAt: 2024.09.04 15:30&lt;/div&gt;&lt;div&gt;+ parrentid&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QBE60ZUakxJW5ELRVbWh-25" vertex="1">
           <mxGeometry y="26" width="210" height="134" as="geometry" />
         </mxCell>
         <mxCell id="QBE60ZUakxJW5ELRVbWh-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="QBE60ZUakxJW5ELRVbWh-25" vertex="1">
