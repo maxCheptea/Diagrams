@@ -866,7 +866,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="C6HKdqDlzkEcT7GTTIT4" name="Booking flow">
-    <mxGraphModel dx="3187" dy="2467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="1336" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -895,13 +895,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QBE60ZUakxJW5ELRVbWh-25" value="BookingTransaction&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="QBE60ZUakxJW5ELRVbWh-51" vertex="1">
-          <mxGeometry x="10" y="60" width="210" height="200" as="geometry" />
+          <mxGeometry x="10" y="60" width="210" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="QBE60ZUakxJW5ELRVbWh-26" value="+ bookingId: UUID&lt;div&gt;+ ID proprietar: 21&lt;/div&gt;&lt;div&gt;+ stareActuala: nu&lt;/div&gt;&lt;div&gt;+ amount: 150,&lt;/div&gt;&lt;div&gt;+ valuta: RON&lt;/div&gt;&lt;div&gt;+ comission: 10&lt;/div&gt;&lt;div&gt;+ type: &#39;sell&#39;&lt;br&gt;&lt;div&gt;+ createdAt: 2024.09.04 15:30&lt;/div&gt;&lt;div&gt;+ parrentid&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QBE60ZUakxJW5ELRVbWh-25" vertex="1">
-          <mxGeometry y="26" width="210" height="134" as="geometry" />
-        </mxCell>
-        <mxCell id="QBE60ZUakxJW5ELRVbWh-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="QBE60ZUakxJW5ELRVbWh-25" vertex="1">
-          <mxGeometry y="160" width="210" height="40" as="geometry" />
+        <mxCell id="QBE60ZUakxJW5ELRVbWh-26" value="+ bookingId: UUID&lt;div&gt;+ ID proprietar: 21&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ comission: 10&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ type: &#39;sell&#39;&lt;br&gt;&lt;div&gt;+ createdAt: 2024.09.04 15:30&lt;/div&gt;&lt;div&gt;+ id: 1&lt;/div&gt;&lt;div&gt;+ parrentid: null&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QBE60ZUakxJW5ELRVbWh-25" vertex="1">
+          <mxGeometry y="26" width="210" height="154" as="geometry" />
         </mxCell>
         <mxCell id="QBE60ZUakxJW5ELRVbWh-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.012;entryY=0.549;entryDx=0;entryDy=0;entryPerimeter=0;" parent="QBE60ZUakxJW5ELRVbWh-51" source="QBE60ZUakxJW5ELRVbWh-30" target="QBE60ZUakxJW5ELRVbWh-43" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -909,22 +906,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QBE60ZUakxJW5ELRVbWh-42" value="BookingTransaction&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="QBE60ZUakxJW5ELRVbWh-51" vertex="1">
-          <mxGeometry x="560" y="60" width="210" height="200" as="geometry" />
+          <mxGeometry x="560" y="60" width="210" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="QBE60ZUakxJW5ELRVbWh-43" value="+ bookingId: UUID&lt;div&gt;+ ID proprietar: 22&lt;/div&gt;&lt;div&gt;+ stareActuala: da&lt;/div&gt;&lt;div&gt;+ amount: 135,&lt;/div&gt;&lt;div&gt;+ currency: RON&lt;/div&gt;&lt;div&gt;+ comission: 0&lt;/div&gt;&lt;div&gt;+ type: &#39;transport&#39;&lt;br&gt;&lt;div&gt;+ createdAt: 2024.09.06&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QBE60ZUakxJW5ELRVbWh-42" vertex="1">
-          <mxGeometry y="26" width="210" height="134" as="geometry" />
-        </mxCell>
-        <mxCell id="QBE60ZUakxJW5ELRVbWh-44" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="QBE60ZUakxJW5ELRVbWh-42" vertex="1">
-          <mxGeometry y="160" width="210" height="40" as="geometry" />
+        <mxCell id="QBE60ZUakxJW5ELRVbWh-43" value="+ bookingId: UUID&lt;div&gt;+ ID proprietar: 22&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ comission: 0&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ type: &#39;transport&#39;&lt;br&gt;&lt;div&gt;+ createdAt: 2024.09.06&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ id: 3&lt;/div&gt;&lt;div&gt;+ parrentid: 2&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QBE60ZUakxJW5ELRVbWh-42" vertex="1">
+          <mxGeometry y="26" width="210" height="154" as="geometry" />
         </mxCell>
         <mxCell id="QBE60ZUakxJW5ELRVbWh-30" value="BookingTransaction&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="QBE60ZUakxJW5ELRVbWh-51" vertex="1">
-          <mxGeometry x="290" y="60" width="210" height="200" as="geometry" />
+          <mxGeometry x="290" y="60" width="210" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="QBE60ZUakxJW5ELRVbWh-31" value="+ bookingId: UUID&lt;div&gt;+ ID proprietar: 22&lt;/div&gt;&lt;div&gt;+ stareActuala: nu&lt;/div&gt;&lt;div&gt;+ amount: 135,&lt;/div&gt;&lt;div&gt;+ currency: RON&lt;/div&gt;&lt;div&gt;+ comission: 0&lt;/div&gt;&lt;div&gt;+ type: &#39;sell&#39;&lt;br&gt;&lt;div&gt;+ createdAt: 2024.09.04 15:35&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QBE60ZUakxJW5ELRVbWh-30" vertex="1">
-          <mxGeometry y="26" width="210" height="134" as="geometry" />
-        </mxCell>
-        <mxCell id="QBE60ZUakxJW5ELRVbWh-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="QBE60ZUakxJW5ELRVbWh-30" vertex="1">
-          <mxGeometry y="160" width="210" height="40" as="geometry" />
+        <mxCell id="QBE60ZUakxJW5ELRVbWh-31" value="+ bookingId: UUID&lt;div&gt;+ ID proprietar: 22&lt;/div&gt;&lt;div&gt;+ comission: 0&lt;/div&gt;&lt;div&gt;+ type: &#39;sell&#39;&lt;br&gt;&lt;div&gt;+ createdAt: 2024.09.04 15:35&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ id: 2&lt;/div&gt;&lt;div&gt;+ parrentid: 1&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QBE60ZUakxJW5ELRVbWh-30" vertex="1">
+          <mxGeometry y="26" width="210" height="154" as="geometry" />
         </mxCell>
         <mxCell id="r28Zq3r1ciWLY6Joegvd-12" value="Vizualizare&lt;br&gt;operator" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="QBE60ZUakxJW5ELRVbWh-51">
           <mxGeometry x="480" y="245" width="120" height="80" as="geometry" />
@@ -945,13 +936,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QBE60ZUakxJW5ELRVbWh-66" value="BookingTransaction&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="QBE60ZUakxJW5ELRVbWh-64" vertex="1">
-          <mxGeometry x="10" y="60" width="210" height="200" as="geometry" />
+          <mxGeometry x="10" y="60" width="210" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="QBE60ZUakxJW5ELRVbWh-67" value="+ bookingId: UUID&lt;div&gt;+ ID proprietar: 21&lt;/div&gt;&lt;div&gt;+ stareActuala: nu&lt;/div&gt;&lt;div&gt;+ amount: 150,&lt;/div&gt;&lt;div&gt;+ valuta: RON&lt;/div&gt;&lt;div&gt;+ comission: 10&lt;/div&gt;&lt;div&gt;+ type: &#39;sell&#39;&lt;br&gt;&lt;div&gt;+ createdAt: 2024.09.04&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QBE60ZUakxJW5ELRVbWh-66" vertex="1">
+        <mxCell id="QBE60ZUakxJW5ELRVbWh-67" value="+ bookingId: UUID&lt;div&gt;+ ID proprietar: 21&lt;/div&gt;&lt;div&gt;+ comission: 10&lt;/div&gt;&lt;div&gt;+ type: &#39;sell&#39;&lt;br&gt;&lt;div&gt;+ createdAt: 2024.09.04&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ id: 1&lt;/div&gt;&lt;div&gt;+ parrentid: null&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QBE60ZUakxJW5ELRVbWh-66" vertex="1">
           <mxGeometry y="26" width="210" height="134" as="geometry" />
-        </mxCell>
-        <mxCell id="QBE60ZUakxJW5ELRVbWh-68" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="QBE60ZUakxJW5ELRVbWh-66" vertex="1">
-          <mxGeometry y="160" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QBE60ZUakxJW5ELRVbWh-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.012;entryY=0.549;entryDx=0;entryDy=0;entryPerimeter=0;" parent="QBE60ZUakxJW5ELRVbWh-64" source="QBE60ZUakxJW5ELRVbWh-73" target="QBE60ZUakxJW5ELRVbWh-71" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -959,22 +947,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QBE60ZUakxJW5ELRVbWh-70" value="BookingTransaction&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="QBE60ZUakxJW5ELRVbWh-64" vertex="1">
-          <mxGeometry x="560" y="60" width="210" height="200" as="geometry" />
+          <mxGeometry x="560" y="60" width="210" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="QBE60ZUakxJW5ELRVbWh-71" value="+ bookingId: UUID&lt;div&gt;+ ID proprietar: 23&lt;/div&gt;&lt;div&gt;+ stareActuala: da&lt;/div&gt;&lt;div&gt;+ amount: 133,65,&lt;/div&gt;&lt;div&gt;+ currency: RON&lt;/div&gt;&lt;div&gt;+ comission: 0&lt;/div&gt;&lt;div&gt;+ type: &#39;transport&#39;&lt;br&gt;&lt;div&gt;+ createdAt: 2024.09.06&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QBE60ZUakxJW5ELRVbWh-70" vertex="1">
+        <mxCell id="QBE60ZUakxJW5ELRVbWh-71" value="+ bookingId: UUID&lt;div&gt;+ ID proprietar: 23&lt;/div&gt;&lt;div&gt;+ comission: 0&lt;/div&gt;&lt;div&gt;+ type: &#39;transport&#39;&lt;br&gt;&lt;div&gt;+ createdAt: 2024.09.06&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ id: 1&lt;/div&gt;&lt;div&gt;+ parrentid: null&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QBE60ZUakxJW5ELRVbWh-70" vertex="1">
           <mxGeometry y="26" width="210" height="134" as="geometry" />
-        </mxCell>
-        <mxCell id="QBE60ZUakxJW5ELRVbWh-72" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="QBE60ZUakxJW5ELRVbWh-70" vertex="1">
-          <mxGeometry y="160" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QBE60ZUakxJW5ELRVbWh-73" value="BookingTransaction&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="QBE60ZUakxJW5ELRVbWh-64" vertex="1">
-          <mxGeometry x="290" y="60" width="210" height="200" as="geometry" />
+          <mxGeometry x="290" y="60" width="210" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="QBE60ZUakxJW5ELRVbWh-74" value="+ bookingId: UUID&lt;div&gt;+ ID proprietar: 22&lt;/div&gt;&lt;div&gt;+ stareActuala: nu&lt;/div&gt;&lt;div&gt;+ amount: 135,&lt;/div&gt;&lt;div&gt;+ currency: RON&lt;/div&gt;&lt;div&gt;+ comission: 1&lt;/div&gt;&lt;div&gt;+ type: &#39;sell&#39;&lt;br&gt;&lt;div&gt;+ createdAt: 2024.09.04&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QBE60ZUakxJW5ELRVbWh-73" vertex="1">
+        <mxCell id="QBE60ZUakxJW5ELRVbWh-74" value="+ bookingId: UUID&lt;div&gt;+ ID proprietar: 22&lt;/div&gt;&lt;div&gt;+ comission: 1&lt;/div&gt;&lt;div&gt;+ type: &#39;sell&#39;&lt;br&gt;&lt;div&gt;+ createdAt: 2024.09.04&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ id: 1&lt;/div&gt;&lt;div&gt;+ parrentid: null&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QBE60ZUakxJW5ELRVbWh-73" vertex="1">
           <mxGeometry y="26" width="210" height="134" as="geometry" />
-        </mxCell>
-        <mxCell id="QBE60ZUakxJW5ELRVbWh-75" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="QBE60ZUakxJW5ELRVbWh-73" vertex="1">
-          <mxGeometry y="160" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="r28Zq3r1ciWLY6Joegvd-14" value="Vizualizare&lt;br&gt;operator" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="QBE60ZUakxJW5ELRVbWh-64">
           <mxGeometry x="490" y="252" width="120" height="80" as="geometry" />
@@ -997,22 +979,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QBE60ZUakxJW5ELRVbWh-82" value="BookingTransaction&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="QBE60ZUakxJW5ELRVbWh-76" vertex="1">
-          <mxGeometry x="280" y="60" width="210" height="200" as="geometry" />
+          <mxGeometry x="280" y="60" width="210" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="QBE60ZUakxJW5ELRVbWh-83" value="+ bookingId: UUID&lt;div&gt;+ ID proprietar: 23&lt;/div&gt;&lt;div&gt;+ stareActuala: da&lt;/div&gt;&lt;div&gt;+ amount: 133,65,&lt;/div&gt;&lt;div&gt;+ currency: RON&lt;/div&gt;&lt;div&gt;+ comission: 0&lt;/div&gt;&lt;div&gt;+ type: &#39;transport&#39;&lt;br&gt;&lt;div&gt;+ createdAt: 2024.09.06&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QBE60ZUakxJW5ELRVbWh-82" vertex="1">
+        <mxCell id="QBE60ZUakxJW5ELRVbWh-83" value="+ bookingId: UUID&lt;div&gt;+ ID proprietar: 23&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ comission: 0&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ type: &#39;transport&#39;&lt;br&gt;&lt;div&gt;+ createdAt: 2024.09.06&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ id: 1&lt;/div&gt;&lt;div&gt;+ parrentid: null&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QBE60ZUakxJW5ELRVbWh-82" vertex="1">
           <mxGeometry y="26" width="210" height="134" as="geometry" />
-        </mxCell>
-        <mxCell id="QBE60ZUakxJW5ELRVbWh-84" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="QBE60ZUakxJW5ELRVbWh-82" vertex="1">
-          <mxGeometry y="160" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QBE60ZUakxJW5ELRVbWh-85" value="BookingTransaction&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="QBE60ZUakxJW5ELRVbWh-76" vertex="1">
-          <mxGeometry x="10" y="60" width="210" height="200" as="geometry" />
+          <mxGeometry x="10" y="60" width="210" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="QBE60ZUakxJW5ELRVbWh-86" value="+ bookingId: UUID&lt;div&gt;+ ID proprietar: 22&lt;/div&gt;&lt;div&gt;+ stareActuala: nu&lt;/div&gt;&lt;div&gt;+ amount: 135,&lt;/div&gt;&lt;div&gt;+ currency: RON&lt;/div&gt;&lt;div&gt;+ comission: 1&lt;/div&gt;&lt;div&gt;+ type: &#39;sell&#39;&lt;br&gt;&lt;div&gt;+ createdAt: 2024.09.04&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QBE60ZUakxJW5ELRVbWh-85" vertex="1">
+        <mxCell id="QBE60ZUakxJW5ELRVbWh-86" value="+ bookingId: UUID&lt;div&gt;+ ID proprietar: 22&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ comission: 1&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ type: &#39;sell&#39;&lt;br&gt;&lt;div&gt;+ createdAt: 2024.09.04&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ id: 1&lt;/div&gt;&lt;div&gt;+ parrentid: null&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QBE60ZUakxJW5ELRVbWh-85" vertex="1">
           <mxGeometry y="26" width="210" height="134" as="geometry" />
-        </mxCell>
-        <mxCell id="QBE60ZUakxJW5ELRVbWh-87" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="QBE60ZUakxJW5ELRVbWh-85" vertex="1">
-          <mxGeometry y="160" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="r28Zq3r1ciWLY6Joegvd-7" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="QBE60ZUakxJW5ELRVbWh-76">
           <mxGeometry x="10" y="290" width="420" height="90" as="geometry" />
