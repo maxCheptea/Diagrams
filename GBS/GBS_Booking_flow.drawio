@@ -1464,20 +1464,20 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cX6ncOvWSnyZeQtcP2dC" name="Multitenant">
-    <mxGraphModel dx="2158" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="552" dy="284" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="TYgt4bkREUKgTiZRtYoG-1" value="TenantModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="40" width="200" height="100" as="geometry">
+          <mxGeometry x="270" y="150" width="200" height="80" as="geometry">
             <mxRectangle x="550" y="420" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TYgt4bkREUKgTiZRtYoG-2" value="+ id: UUID&lt;div&gt;+ name: string&lt;/div&gt;&lt;div&gt;+ settings: TenantSettingsModel&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="TYgt4bkREUKgTiZRtYoG-1">
-          <mxGeometry y="26" width="200" height="74" as="geometry" />
+          <mxGeometry y="26" width="200" height="54" as="geometry" />
         </mxCell>
         <mxCell id="TYgt4bkREUKgTiZRtYoG-5" value="CompanyModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="220" y="80" width="150" height="110" as="geometry">
+          <mxGeometry x="520" y="190" width="150" height="110" as="geometry">
             <mxRectangle x="550" y="420" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1485,7 +1485,7 @@
           <mxGeometry y="26" width="150" height="84" as="geometry" />
         </mxCell>
         <mxCell id="TYgt4bkREUKgTiZRtYoG-7" value="BookingModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="220" y="200" width="150" height="100" as="geometry">
+          <mxGeometry x="520" y="310" width="150" height="100" as="geometry">
             <mxRectangle x="550" y="420" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1499,21 +1499,54 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TYgt4bkREUKgTiZRtYoG-13" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="210" y="50" width="170" height="340" as="geometry" />
+          <mxGeometry x="510" y="160" width="170" height="340" as="geometry" />
         </mxCell>
         <mxCell id="TYgt4bkREUKgTiZRtYoG-14" value="All the models will refference the TenantModel" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#00CC00;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="240" y="320" width="100" height="40" as="geometry" />
+          <mxGeometry x="540" y="430" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TYgt4bkREUKgTiZRtYoG-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="TYgt4bkREUKgTiZRtYoG-13" target="TYgt4bkREUKgTiZRtYoG-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TYgt4bkREUKgTiZRtYoG-17" value="TenantSettingsModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="80" width="170" height="110" as="geometry">
+          <mxGeometry x="60" y="190" width="170" height="110" as="geometry">
             <mxRectangle x="550" y="420" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TYgt4bkREUKgTiZRtYoG-18" value="+ id: UUID&lt;div&gt;+ name: string&lt;/div&gt;&lt;div&gt;+ hasPayment: boolean&lt;/div&gt;&lt;div&gt;+ hasMailingOptions: boolean&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="TYgt4bkREUKgTiZRtYoG-17">
           <mxGeometry y="26" width="170" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="TYgt4bkREUKgTiZRtYoG-19" value="PaymentConfigModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="751.19" y="190" width="180" height="110" as="geometry">
+            <mxRectangle x="550" y="420" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYgt4bkREUKgTiZRtYoG-20" value="+ id: UUID&lt;div&gt;+ name: string&lt;/div&gt;&lt;div&gt;+ settings: PaymentSettings&lt;/div&gt;&lt;div&gt;+ companyId: UUID&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="TYgt4bkREUKgTiZRtYoG-19">
+          <mxGeometry y="26" width="180" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="TYgt4bkREUKgTiZRtYoG-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.993;entryY=0.294;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TYgt4bkREUKgTiZRtYoG-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="259.9599999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="711" y="260" />
+              <mxPoint x="670" y="261" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYgt4bkREUKgTiZRtYoG-22" value="Stores connection&lt;div&gt;details of payment processors&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="90" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TYgt4bkREUKgTiZRtYoG-23" value="CommConfigModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="751.19" y="320" width="200" height="120" as="geometry">
+            <mxRectangle x="550" y="420" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYgt4bkREUKgTiZRtYoG-24" value="+ id: UUID&lt;div&gt;+ name: string&lt;/div&gt;&lt;div&gt;+ settings: CommSettings&lt;/div&gt;&lt;div&gt;+ companyId: UUID&lt;/div&gt;&lt;div&gt;+ type: &#39;Email&#39; | &#39;Whatsapp&#39; | &#39;etc&#39;&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="TYgt4bkREUKgTiZRtYoG-23">
+          <mxGeometry y="26" width="200" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="TYgt4bkREUKgTiZRtYoG-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.002;entryY=0.295;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TYgt4bkREUKgTiZRtYoG-24" target="TYgt4bkREUKgTiZRtYoG-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="290" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
