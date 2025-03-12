@@ -1508,12 +1508,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TYgt4bkREUKgTiZRtYoG-17" value="TenantSettingsModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="60" y="190" width="170" height="110" as="geometry">
+          <mxGeometry x="60" y="190" width="180" height="130" as="geometry">
             <mxRectangle x="550" y="420" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TYgt4bkREUKgTiZRtYoG-18" value="+ id: UUID&lt;div&gt;+ name: string&lt;/div&gt;&lt;div&gt;+ hasPayment: boolean&lt;/div&gt;&lt;div&gt;+ hasMailingOptions: boolean&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="TYgt4bkREUKgTiZRtYoG-17" vertex="1">
-          <mxGeometry y="26" width="170" height="84" as="geometry" />
+        <mxCell id="TYgt4bkREUKgTiZRtYoG-18" value="+ id: UUID&lt;div&gt;+ name: string&lt;/div&gt;&lt;div&gt;+ hasPayment: boolean&lt;/div&gt;&lt;div&gt;+ hasMailingOptions: boolean&lt;/div&gt;&lt;div&gt;+ sellingPlatform: Array (UUID)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="TYgt4bkREUKgTiZRtYoG-17" vertex="1">
+          <mxGeometry y="26" width="180" height="104" as="geometry" />
         </mxCell>
         <mxCell id="TYgt4bkREUKgTiZRtYoG-19" value="PaymentConfigModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="751.19" y="190" width="180" height="110" as="geometry">
@@ -1926,7 +1926,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="E7zuxzo52KaPsipqBVm4" name="Multitenant big concept">
-    <mxGraphModel dx="1410" dy="1825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2017" dy="2255" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1973,6 +1973,14 @@
         </mxCell>
         <mxCell id="5LHGmYGoG9KQ66QvI6pd-2" value="+ id: UUID&lt;div&gt;+ name: string&lt;/div&gt;&lt;div&gt;+ slug: string&lt;/div&gt;&lt;div&gt;+ settings: PlatformSettings&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="5LHGmYGoG9KQ66QvI6pd-1">
           <mxGeometry y="26" width="200" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="1Ncf6MB30oBG0k4jjQWw-1" value="TenantModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="-1190" width="200" height="80" as="geometry">
+            <mxRectangle x="550" y="420" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Ncf6MB30oBG0k4jjQWw-2" value="+ id: UUID&lt;div&gt;+ name: string&lt;/div&gt;&lt;div&gt;+ settings: TenantSettingsModel&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1Ncf6MB30oBG0k4jjQWw-1">
+          <mxGeometry y="26" width="200" height="54" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
