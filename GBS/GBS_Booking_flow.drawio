@@ -1926,36 +1926,66 @@
     </mxGraphModel>
   </diagram>
   <diagram id="E7zuxzo52KaPsipqBVm4" name="Multitenant big concept">
-    <mxGraphModel dx="1783" dy="2089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1943" dy="2203" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="EpdG0OsR1FIYFrUenO9m-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
-          <mxGeometry x="-1130" y="-1220" width="280" height="480" as="geometry" />
+        <mxCell id="EpdG0OsR1FIYFrUenO9m-14" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=12 12;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="-780" y="-1220" width="280" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="EpdG0OsR1FIYFrUenO9m-3" value="Selling platforms" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-1120" y="-1210" width="130" height="30" as="geometry" />
+        <mxCell id="EpdG0OsR1FIYFrUenO9m-15" value="API" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="-1210" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EpdG0OsR1FIYFrUenO9m-4" value="Mirtrans&lt;div&gt;ID = mirtrans-acc121&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingTop=0;spacingLeft=10;" vertex="1" parent="1">
-          <mxGeometry x="-1115" y="-1170" width="165" height="60" as="geometry" />
+        <mxCell id="EpdG0OsR1FIYFrUenO9m-16" value="Mirtrans&lt;div&gt;ID = mirtrans-acc121&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingTop=0;spacingLeft=10;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="-765" y="-1170" width="165" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EpdG0OsR1FIYFrUenO9m-5" value="Trendbus&lt;div&gt;ID = trendbus-ssddcc&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingTop=0;spacingLeft=10;" vertex="1" parent="1">
-          <mxGeometry x="-1115" y="-1100" width="165" height="60" as="geometry" />
+        <mxCell id="EpdG0OsR1FIYFrUenO9m-17" value="Trendbus&lt;div&gt;ID = trendbus-ssddcc&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingTop=0;spacingLeft=10;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="-765" y="-1100" width="165" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EpdG0OsR1FIYFrUenO9m-6" value="Mirbus&lt;div&gt;ID = mirbus-xcddwf&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingTop=0;spacingLeft=10;" vertex="1" parent="1">
-          <mxGeometry x="-1115" y="-1030" width="165" height="60" as="geometry" />
+        <mxCell id="EpdG0OsR1FIYFrUenO9m-18" value="Mirbus&lt;div&gt;ID = mirbus-xcddwf&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingTop=0;spacingLeft=10;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="-765" y="-1030" width="165" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EpdG0OsR1FIYFrUenO9m-8" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-1040" y="-960" width="10" height="10" as="geometry" />
+        <mxCell id="EpdG0OsR1FIYFrUenO9m-19" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="-960" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="EpdG0OsR1FIYFrUenO9m-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-1040" y="-940" width="10" height="10" as="geometry" />
+        <mxCell id="EpdG0OsR1FIYFrUenO9m-20" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="-940" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="EpdG0OsR1FIYFrUenO9m-10" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-1040" y="-920" width="10" height="10" as="geometry" />
+        <mxCell id="EpdG0OsR1FIYFrUenO9m-21" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="-920" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="EpdG0OsR1FIYFrUenO9m-11" value="Tenant&lt;div&gt;ID = tenant-xcddwf&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingTop=0;spacingLeft=10;" vertex="1" parent="1">
-          <mxGeometry x="-1120" y="-900" width="165" height="60" as="geometry" />
+        <mxCell id="EpdG0OsR1FIYFrUenO9m-22" value="Tenant&lt;div&gt;ID = tenant-xcddwf&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingTop=0;spacingLeft=10;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="-900" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EpdG0OsR1FIYFrUenO9m-23" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-1130" y="-1280" width="280" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="EpdG0OsR1FIYFrUenO9m-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=12 12;container=0;" vertex="1" parent="EpdG0OsR1FIYFrUenO9m-23">
+          <mxGeometry y="60" width="280" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="EpdG0OsR1FIYFrUenO9m-3" value="Selling platforms / Frontend" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;container=0;" vertex="1" parent="EpdG0OsR1FIYFrUenO9m-23">
+          <mxGeometry width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EpdG0OsR1FIYFrUenO9m-4" value="Mirtrans&lt;div&gt;ID = mirtrans-acc121&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingTop=0;spacingLeft=10;container=0;" vertex="1" parent="EpdG0OsR1FIYFrUenO9m-23">
+          <mxGeometry x="15" y="100" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EpdG0OsR1FIYFrUenO9m-5" value="Trendbus&lt;div&gt;ID = trendbus-ssddcc&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingTop=0;spacingLeft=10;container=0;" vertex="1" parent="EpdG0OsR1FIYFrUenO9m-23">
+          <mxGeometry x="15" y="170" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EpdG0OsR1FIYFrUenO9m-6" value="Mirbus&lt;div&gt;ID = mirbus-xcddwf&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingTop=0;spacingLeft=10;container=0;" vertex="1" parent="EpdG0OsR1FIYFrUenO9m-23">
+          <mxGeometry x="15" y="240" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EpdG0OsR1FIYFrUenO9m-8" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;container=0;" vertex="1" parent="EpdG0OsR1FIYFrUenO9m-23">
+          <mxGeometry x="90" y="310" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="EpdG0OsR1FIYFrUenO9m-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;container=0;" vertex="1" parent="EpdG0OsR1FIYFrUenO9m-23">
+          <mxGeometry x="90" y="330" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="EpdG0OsR1FIYFrUenO9m-10" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;container=0;" vertex="1" parent="EpdG0OsR1FIYFrUenO9m-23">
+          <mxGeometry x="90" y="350" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="EpdG0OsR1FIYFrUenO9m-11" value="Tenant&lt;div&gt;ID = tenant-xcddwf&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingTop=0;spacingLeft=10;container=0;" vertex="1" parent="EpdG0OsR1FIYFrUenO9m-23">
+          <mxGeometry x="10" y="370" width="165" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
