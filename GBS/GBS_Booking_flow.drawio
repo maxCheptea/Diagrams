@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.14" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="24.8.3" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Booking flow">
     <mxGraphModel dx="4097" dy="2109" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1922,6 +1922,14 @@
         <mxCell id="aycIStDJe6JfpVbW9XrB-49" value="&lt;font size=&quot;1&quot;&gt;Augment `&lt;b&gt;&lt;i&gt;req&lt;/i&gt;&lt;/b&gt;` with `&lt;b&gt;&lt;i&gt;ctx&lt;/i&gt;&lt;/b&gt;`&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;property:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;req.ctx={ tenantId: string }.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;Based on the Public UI tenant ID&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;stored in .env&lt;/font&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="aycIStDJe6JfpVbW9XrB-3">
           <mxGeometry x="260" y="-30" width="210" height="130" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="E7zuxzo52KaPsipqBVm4" name="Page-5">
+    <mxGraphModel dx="890" dy="631" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
