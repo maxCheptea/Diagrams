@@ -1926,7 +1926,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="E7zuxzo52KaPsipqBVm4" name="Multitenant big concept">
-    <mxGraphModel dx="2043" dy="2292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2197" dy="2405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2004,7 +2004,7 @@
           <mxGeometry x="-1090" y="-790" width="220" height="90" as="geometry" />
         </mxCell>
         <mxCell id="99JBa1c1zUmqVejGwnQA-5" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillStyle=auto;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-810" y="-705" width="550" height="370" as="geometry" />
+          <mxGeometry x="-810" y="-705" width="550" height="405" as="geometry" />
         </mxCell>
         <mxCell id="99JBa1c1zUmqVejGwnQA-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Resurse&lt;/h1&gt;&lt;p&gt;Accesul la resurse se face prin atribuirea unui ID numit &lt;b&gt;&lt;i&gt;tenantId&lt;/i&gt;&lt;/b&gt;&amp;nbsp; fiecarei resurse inregistrate in baza de date. Acest ID va indica &lt;b&gt;proprietarul&lt;/b&gt;&amp;nbsp;resurse respective&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-810" y="-790" width="550" height="80" as="geometry" />
@@ -2154,6 +2154,20 @@
             <mxPoint x="-870" y="-540" as="sourcePoint" />
             <mxPoint x="-813" y="-539" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="bFHH0Xk8yvCQTQg7JoGo-4" value="Company" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="-430" width="140" height="104" as="geometry">
+            <mxRectangle x="-540" y="-620" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bFHH0Xk8yvCQTQg7JoGo-5" value="+ Name: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bFHH0Xk8yvCQTQg7JoGo-4">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bFHH0Xk8yvCQTQg7JoGo-6" value="+ ....." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bFHH0Xk8yvCQTQg7JoGo-4">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bFHH0Xk8yvCQTQg7JoGo-7" value="+ TenantId: Tenant.ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bFHH0Xk8yvCQTQg7JoGo-4">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
