@@ -1926,7 +1926,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="E7zuxzo52KaPsipqBVm4" name="Multitenant big concept">
-    <mxGraphModel dx="2197" dy="2405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2140" dy="2363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2168,6 +2168,30 @@
         </mxCell>
         <mxCell id="bFHH0Xk8yvCQTQg7JoGo-7" value="+ TenantId: Tenant.ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bFHH0Xk8yvCQTQg7JoGo-4">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bFHH0Xk8yvCQTQg7JoGo-8" value="Settings Trendbus&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;partnerAccess:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &quot;1000&quot;: [&#39;fleet:read&#39;, &#39;users:read&#39;]&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;}&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="9" y="-634" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bFHH0Xk8yvCQTQg7JoGo-9" value="Modalitate comunicare intre Tenants" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="9" y="-730" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="bFHH0Xk8yvCQTQg7JoGo-11" value="1. Setare la nivel de tenant unde se poate&amp;nbsp;&lt;div&gt;set ca partener alt tenant&amp;nbsp;&lt;/div&gt;&lt;div&gt;si ce resurse poate&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;accepta&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="9" y="-705" width="320" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bFHH0Xk8yvCQTQg7JoGo-12" value="Pro: Citesti resursele partenerului direct: Maisini, soferi etc" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="9" y="-500" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bFHH0Xk8yvCQTQg7JoGo-13" value="Contra: &lt;br&gt;- Complexitate mare, mai ales la rapoarte unde trebuie&lt;div&gt;sa incluzi diverse cazuri, curse efectuate de parteneri, diagrame pt&lt;/div&gt;&lt;div&gt;parteneri. Nu e clar partea cu comisioane etc.&lt;br&gt;- Fiecare tenant are interfata proprie si trebuie intretinut separat&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-480" width="490" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bFHH0Xk8yvCQTQg7JoGo-14" value="2. Nu exista comunicare intre tenants.&amp;nbsp;&lt;br&gt;Totul este izolat, in caz ca doresti sa inregistrezi un partener,&lt;div&gt;il adaugi de la zero manual cu tot cu masini, soferi etc.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-698" width="450" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bFHH0Xk8yvCQTQg7JoGo-15" value="Pro:&lt;br&gt;- Complexitate mica.&amp;nbsp;&lt;div&gt;- Totul este separat si gestionat dintr-un singur cont,&lt;br&gt;- functionalitatea rapoartelor nu trebuie schimbata, eventual imbunatatita,&lt;div&gt;- setarea comisioanelor de colaborare ramane cum este&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-600" width="540" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bFHH0Xk8yvCQTQg7JoGo-16" value="Contra: Mai multa munca manuala pt operatori, trebuie sa intretina si partea&lt;div&gt;flota si soferi a comapniilor partenere&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-480" width="560" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
