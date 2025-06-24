@@ -2004,7 +2004,7 @@
           <mxGeometry x="-1090" y="-790" width="410" height="90" as="geometry" />
         </mxCell>
         <mxCell id="99JBa1c1zUmqVejGwnQA-5" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillStyle=auto;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-620" y="-700" width="550" height="320" as="geometry" />
+          <mxGeometry x="-620" y="-700" width="550" height="370" as="geometry" />
         </mxCell>
         <mxCell id="99JBa1c1zUmqVejGwnQA-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Resurse&lt;/h1&gt;&lt;p&gt;Accesul la resurse se face prin atribuirea unui ID numit &lt;b&gt;&lt;i&gt;tenantId&lt;/i&gt;&lt;/b&gt;&amp;nbsp; fiecarei resurse inregistrate in baza de date. Acest ID va indica &lt;b&gt;proprietarul&lt;/b&gt;&amp;nbsp;resurse respective&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-620" y="-785" width="550" height="80" as="geometry" />
@@ -2079,6 +2079,34 @@
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="99JBa1c1zUmqVejGwnQA-27" value="+ TenantId: Tenant.ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="99JBa1c1zUmqVejGwnQA-24">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="99JBa1c1zUmqVejGwnQA-28" value="Bookings" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="-550" width="140" height="104" as="geometry">
+            <mxRectangle x="-540" y="-620" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="99JBa1c1zUmqVejGwnQA-29" value="+ Name: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="99JBa1c1zUmqVejGwnQA-28">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="99JBa1c1zUmqVejGwnQA-30" value="+ ....." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="99JBa1c1zUmqVejGwnQA-28">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="99JBa1c1zUmqVejGwnQA-31" value="+ TenantId: Tenant.ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="99JBa1c1zUmqVejGwnQA-28">
+          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="99JBa1c1zUmqVejGwnQA-32" value="Orders" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="-550" width="140" height="104" as="geometry">
+            <mxRectangle x="-540" y="-620" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="99JBa1c1zUmqVejGwnQA-33" value="+ Name: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="99JBa1c1zUmqVejGwnQA-32">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="99JBa1c1zUmqVejGwnQA-34" value="+ ....." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="99JBa1c1zUmqVejGwnQA-32">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="99JBa1c1zUmqVejGwnQA-35" value="+ TenantId: Tenant.ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="99JBa1c1zUmqVejGwnQA-32">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
       </root>
