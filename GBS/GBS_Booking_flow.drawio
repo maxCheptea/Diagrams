@@ -2021,7 +2021,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="99JBa1c1zUmqVejGwnQA-10" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Tenant&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Nume: Trendbus&lt;br&gt;+ ID: 1001&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Settings: Setari specifice tenant-ului&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-1090" y="-600" width="220" height="90" as="geometry" />
+          <mxGeometry x="-1090" y="-590" width="220" height="90" as="geometry" />
         </mxCell>
         <mxCell id="99JBa1c1zUmqVejGwnQA-11" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="99JBa1c1zUmqVejGwnQA-10">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
